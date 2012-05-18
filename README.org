@@ -1,0 +1,7 @@
+* Scala-Java Hello World
+
+This is a very simple project just to demonstrate the Java-Scala integration.
+
+- execute 'sbt' and then 'compile' to build the project;
+- execute 'sbt' and then 'run' to run the built-in development server;
+- execute 'sbt assembly' to generate a jar distribution.
