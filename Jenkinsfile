@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh '/opt/sbt/bin clean package'
+                sh '/opt/sbt/bin/sbt clean package'
             }
         }
         stage('Test') {
